@@ -1,0 +1,170 @@
+Példa:
+
+-- input --
+4
++
+-- input --
+
+
+Program.cs - main()
+
+beolvasas utan:
+
+int count = 4;
+char op = '+';
+
+DrawSquare(4, '+');
+
+Function hivas:
+
+for loop start:
+i = 0
+j = 0
+
+Innentol az if(i == 0 || i == sideLength - 1 || j == 0 || j == sideLength - 1) kifejezest ugy irom, hogy feltetel
+
+feltetel -> igaz 
++
+
+i = 0
+j = 1
+
+feltetel -> igaz 
+++
+
+i = 0
+j = 2
+
+feltetel -> igaz 
++++
+
+i = 0
+j = 3
+
+feltetel -> igaz 
+++++
+
+Console.Writeline();
+[i++]
+[j = 0]
+
+i = 1
+j = 0
+
+feltetel -> igaz 
+++++
++
+
+i = 1 
+j = 1
+
+feltetel -> hamis 
+++++
++ 
+
+i = 1
+j = 2
+
+feltetel -> hamis 
+++++
++  
+
+i = 1
+j = 3
+
+feltetel -> igaz 
+++++
++  +
+
+Console.Writeline();
+[i++]
+[j = 0]
+
+i = 2
+j = 0
+
+feltetel -> hamis 
+++++
++  +
++
+
+i = 2 
+j = 1
+
+feltetel -> hamis 
+++++
++  +
++
+
+i = 2 
+j = 2
+
+
+feltetel -> hamis 
+++++
++  +
++
+
+i = 2
+j = 3
+
+feltetel -> igaz 
+++++
++  +
++  +
+
+Console.Writeline();
+[i++]
+[j = 0]
+
+i = 3
+j = 0
+
+feltetel -> igaz 
+++++
++  +
++  +
++
+
+i = 3 
+j = 1
+
+feltetel -> igaz 
+++++
++  +
++  +
+++
+
+i = 3
+j = 2
+
+feltetel -> igaz 
+
+++++
++  +
++  +
++++
+
+i = 3
+j = 3
+
+feltetel -> igaz
+
+++++	
++  +	
++  +	
+++++	
+
+Console.Writeline();
+
+i nem kisebb, mint sideLength
+
+for loop vege
+
+function vege
+
+mivel void a function igy nincs visszateresi ertek
+
+visszaugras a main()-be
+
+mivel nincs mas a kodban, veget er.
