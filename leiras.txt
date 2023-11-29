@@ -167,4 +167,11 @@ mivel void a function igy nincs visszateresi ertek
 
 visszaugras a main()-be
 
+--- output ---
+++++	
++  +	
++  +	
+++++	
+--- output ---
+
 mivel nincs mas a kodban, veget er.
